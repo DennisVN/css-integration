@@ -55,7 +55,7 @@
 }
 
 .resize-gulp { /*afbeelding verkleinen, best klein in voorbeeld ! */
-    max-width: 30%;
+    max-width: 20%;
     height: auto;
     display: block;
 }
@@ -111,7 +111,6 @@
 .resize-npm { /*afbeelding verkleinen, best klein in voorbeeld ! */
     max-width: 30%;
     height: auto;
-    display: block;
 }
 
 .container-npm h1 { /*styling header*/
