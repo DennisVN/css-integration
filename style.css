@@ -1,28 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 
 /*container rond alles*/
-.container { 
+body { 
     font-family: 'Lato', sans-serif;
-    background-color: white;
     max-width: 100%;
     height: auto;
-}
-
-/*AESTHETIC*/
-.container {
-    border-style: solid;
-    border-width: thin;
-    max-width: 100%;
-    height: auto;
+    display: flex;
 }
 
 
 /*GRUNT KAART*/
 
 .container-grunt { /*eerste kaart*/
-    float: left;
     background-color: white;
-    max-width: 50%;
+    max-width: 25%;
     height: auto;
     padding-left: 15px;
 }
@@ -47,9 +38,8 @@
 /*GULP KAART*/
 
 .container-gulp { /*eerste kaart*/
-    float: left;
     background-color: white;
-    max-width: 50%;
+    max-width: 25%;
     height: auto;
     padding-left: 15px;
 }
@@ -74,9 +64,8 @@
 /*GIT HOOKS KAART*/
 
 .container-githooks { /*eerste kaart*/
-    float: right;
     background-color: white;
-    max-width: 50%;
+    max-width: 25%;
     height: auto;
     padding-left: 15px;
 }
@@ -101,7 +90,6 @@
 /*NPM RUN KAART*/
 
 .container-npm { /*eerste kaart*/
-    float: right;
     background-color: white;
     max-width: 25%;
     height: auto;
