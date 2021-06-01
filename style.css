@@ -26,10 +26,6 @@ img {
     padding: 50px; /*verplaatst ALLE img naar rechterkant*/
 }
 
-
-
-
-
 /*GRUNT KAART*/
 
 .container-grunt { /*eerste kaart*/
@@ -37,6 +33,8 @@ img {
     max-width: 100%;
     height: auto;
     padding-left: 15px;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -67,6 +65,8 @@ img {
     max-width: 100%;
     height: auto;
     padding-left: 15px;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -94,6 +94,8 @@ img {
     background-color: white;
     max-width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -121,6 +123,8 @@ img {
     background-color: white;
     max-width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -137,5 +141,4 @@ img {
 
 .container-npm p { /*styling paragraph*/
     color: rgba(31, 31, 31, 0.842);
-    padding: 50px 0px;
 }
