@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+/*container rond alles*/
+.container { 
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    max-width: 100%;
+    height: auto;
+}
+
+/*AESTHETIC*/
+.container {
+    border-style: solid;
+    border-width: thin;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*GRUNT KAART*/
+
+.container-grunt { /*eerste kaart*/
+    float: left;
+    background-color: white;
+    max-width: 50%;
+    height: auto;
+    padding-left: 15px;
+}
+
+.resize-grunt { /*afbeelding verkleinen, best klein in voorbeeld ! */
+    max-width: 30%;
+    height: auto;
+    display: block;
+}
+
+.container-grunt h1 { /*styling header*/
+    color: rgba(44, 173, 44, 0.815);
+    font-weight: normal;
+}
+
+.container-grunt p { /*styling paragraph*/
+    height: auto;
+    text-align: justify;
+    color: rgba(31, 31, 31, 0.842);
+}
+
+/*GULP KAART*/
+
+.container-gulp { /*eerste kaart*/
+    float: left;
+    background-color: white;
+    max-width: 50%;
+    height: auto;
+    padding-left: 15px;
+}
+
+.resize-gulp { /*afbeelding verkleinen, best klein in voorbeeld ! */
+    max-width: 30%;
+    height: auto;
+    display: block;
+}
+
+.container-gulp h1 { /*styling header*/
+    color: rgba(44, 173, 44, 0.815);
+    font-weight: normal;
+}
+
+.container-gulp p { /*styling paragraph*/
+    height: auto;
+    text-align: justify;
+    color: rgba(31, 31, 31, 0.842);
+}
+
+/*GIT HOOKS KAART*/
+
+.container-githooks { /*eerste kaart*/
+    float: right;
+    background-color: white;
+    max-width: 50%;
+    height: auto;
+    padding-left: 15px;
+}
+
+.resize-githooks { /*afbeelding verkleinen, best klein in voorbeeld ! */
+    max-width: 30%;
+    height: auto;
+    display: block;
+}
+
+.container-githooks h1 { /*styling header*/
+    color: rgba(44, 173, 44, 0.815);
+    font-weight: normal;
+}
+
+.container-githooks p { /*styling paragraph*/
+    height: auto;
+    text-align: justify;
+    color: rgba(31, 31, 31, 0.842);
+}
+
+/*NPM RUN KAART*/
+
+.container-npm { /*eerste kaart*/
+    float: right;
+    background-color: white;
+    max-width: 25%;
+    height: auto;
+    padding-left: 15px;
+}
+
+.resize-npm { /*afbeelding verkleinen, best klein in voorbeeld ! */
+    max-width: 30%;
+    height: auto;
+    display: block;
+}
+
+.container-npm h1 { /*styling header*/
+    color: rgba(44, 173, 44, 0.815);
+    font-weight: normal;
+}
+
+.container-npm p { /*styling paragraph*/
+    height: auto;
+    text-align: justify;
+    color: rgba(31, 31, 31, 0.842);
+}
