@@ -168,6 +168,18 @@ body {
     flex-direction: column;
 }
 
+hr { 
+    display: inline-block;
+    border: 1px inset;
+    overflow: hidden;
+    width: 1080px;
+    max-width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    color:rgba(119, 136, 153, 0.363);
+    background-color: transparent;
+} 
+
 
 /*responsiveness*/
 
@@ -185,7 +197,6 @@ body {
         /*RESET */
         padding: 0;
         margin: 0; 
-        
         font-family: 'Lato', sans-serif;
         max-width: 100%;
         height: auto;
