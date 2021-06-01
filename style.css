@@ -2,29 +2,29 @@
 
 
 body { 
+    /*RESET */
+    padding: 0;
+    margin: 0; 
+    
     font-family: 'Lato', sans-serif;
     max-width: 100%;
     height: auto;
-    background-color: pink;
+    background-color: rgb(255, 255, 255);
 }
 
 /*container rond alles*/
 .wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: normal;
     flex-direction: row;
     height: 100%;
-    border-style: solid;
-}
-.grunt, .gulp, .githooks, .npm {
-    border-style: solid;
+    width: 100%;
 }
 
-/*OPMAAK GENERAL*/
-
-img {
-    padding: 50px; /*verplaatst ALLE img naar rechterkant*/
+.p {
+    text-align: left;
 }
+
 
 /*GRUNT KAART*/
 
@@ -39,23 +39,25 @@ img {
 }
 
 .resize-grunt { /*afbeelding verkleinen, best klein in voorbeeld ! */
+    float: right;
     max-width: 100%;
-    height: auto;
-    width: 220px;
+    height: 247px;
+    width: auto;
 }
 
 .container-grunt h1 { /*styling header*/
-    color: rgba(44, 173, 44, 0.815);
+    color: rgba(56, 146, 91, 0.493);
     font-weight: normal;
-    padding: 30px;
-    top: 330px;
 }
 
 .container-grunt p { /*styling paragraph*/
     height: auto;
     text-align: justify;
     color: rgba(31, 31, 31, 0.842);
-    padding: 30px; /* verschuift 30px naar rechts (door rand) */
+    display: flex; 
+    flex-wrap: nowrap;
+    justify-content: center; /*houdt segment int midden van container */
+    flex-direction: column;
 }
 
 /*GULP KAART*/
@@ -77,23 +79,30 @@ img {
 }
 
 .container-gulp h1 { /*styling header*/
-    color: rgba(44, 173, 44, 0.815);
+    color: rgba(56, 146, 91, 0.493);
     font-weight: normal;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center; /*houdt segment int midden van container */
+    flex-direction: column;
 }
 
 .container-gulp p { /*styling paragraph*/
     height: auto;
     color: rgba(31, 31, 31, 0.842);
-    padding: 58px 0;
+    display: flex; 
+    flex-wrap: nowrap;
+    justify-content: center; /*houdt segment int midden van container */
+    flex-direction: column;
 }
 
 /*GIT HOOKS KAART*/
 
 .container-githooks { /*eerste kaart*/
-    padding-left: 15px;
     background-color: white;
     max-width: 100%;
     height: auto;
+    padding-left: 15px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -106,39 +115,67 @@ img {
 }
 
 .container-githooks h1 { /*styling header*/
-    color: rgba(44, 173, 44, 0.815);
+    color: rgba(56, 146, 91, 0.493);
     font-weight: normal;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center; /*houdt segment int midden van container */
+    flex-direction: column;
 }
 
 .container-githooks p { /*styling paragraph*/
     height: auto;
     color: rgba(31, 31, 31, 0.842);
-    padding: 50px 0px;
+    display: flex; 
+    flex-wrap: nowrap;
+    justify-content: center; /*houdt segment int midden van container */
+    flex-direction: column;
 }
 
 /*NPM RUN KAART*/
 
 .container-npm { /*eerste kaart*/
-    padding-left: 15px;
     background-color: white;
     max-width: 100%;
     height: auto;
+    padding-left: 15px;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .resize-npm { /*afbeelding verkleinen, best klein in voorbeeld ! */
-    max-width: 100%;
-    height: auto;
-    width: 200px;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
 }
 
 .container-npm h1 { /*styling header*/
-    color: rgba(44, 173, 44, 0.815);
+    color: rgba(56, 146, 91, 0.493);
     font-weight: normal;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center; /*houdt segment int midden van container */
+    flex-direction: column;
 }
 
 .container-npm p { /*styling paragraph*/
+    height: auto;
     color: rgba(31, 31, 31, 0.842);
+    display: flex; 
+    flex-wrap: nowrap;
+    justify-content: center; /*houdt segment int midden van container */
+    flex-direction: column;
+}
+
+hr { 
+    display: block;
+    border: 1px inset;
+    overflow: hidden;
+    width: 100%;
+    max-width: 999px;
+    margin-right: auto;
+    margin-left: 10px;
+    color:rgba(119, 136, 153, 0.363);
+    background-color: transparent;
 }
