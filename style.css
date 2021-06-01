@@ -168,14 +168,51 @@ body {
     flex-direction: column;
 }
 
-hr { 
-    display: block;
-    border: 1px inset;
-    overflow: hidden;
-    width: 100%;
-    max-width: 999px;
-    margin-right: auto;
-    margin-left: 10px;
-    color:rgba(119, 136, 153, 0.363);
-    background-color: transparent;
-}
+
+/*responsiveness*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 414px) {
+    .wrapper {
+        display: inline-block;
+        justify-content: normal;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+    }
+
+    body { 
+        /*RESET */
+        padding: 0;
+        margin: 0; 
+        
+        font-family: 'Lato', sans-serif;
+        max-width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+    }
+
+    
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 415px) {
+    .wrapper {
+        display: flex;
+        justify-content: normal;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+    }
+
+    body { 
+        /*RESET */
+        padding: 0;
+        margin: 0; 
+        
+        font-family: 'Lato', sans-serif;
+        max-width: 100%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+    }
+} 
