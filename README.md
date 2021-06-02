@@ -10,7 +10,8 @@ All code used was basic HMTL and CSS. Main styling done with the flex and float 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
  
 ## Screenshots
-images\screenshotcssinteg.png
+C:\Users\BEAUCOUPDARGENT\Documents\VS CODE\css-integration\images\screenshotcssinteg.png
+
 
 ## Tech/framework used
 -HTML
